@@ -19,6 +19,6 @@ Wajib menyertakan atribusi/kredit kepada pembuat asli.
 ## Cara Sitasi (Citation)
 Jika kode ini membantu tugas akhir, skripsi, atau proyek Anda, mohon berikan kredit dengan format berikut:
 
-> [Nama Anda]. (2024). Modul Pembelajaran SPK PHP Native. GitHub Repository.
+> [Satria Fiandika]. (2026). Modul Pembelajaran SPK PHP Native. GitHub Repository.
 
 Atau gunakan fitur **"Cite this repository"** di pojok kanan sidebar GitHub.

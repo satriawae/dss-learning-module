@@ -1,0 +1,208 @@
+/* Palette Warna Udinus */
+:root {
+    --dinus-blue: #003366;
+    --dinus-gold: #ffcc00;
+    --dinus-light: #f8f9fa;
+    --dinus-dark: #002244;
+}
+
+body {
+    background-color: #f4f6f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-dinus {
+    background-color: var(--dinus-blue);
+    border-bottom: 4px solid var(--dinus-gold);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+.card-dinus {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.card-header-dinus {
+    background-color: var(--dinus-blue);
+    color: white;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    font-weight: bold;
+}
+
+.btn-dinus {
+    background-color: var(--dinus-blue);
+    color: white;
+    transition: all 0.3s;
+}
+
+.btn-dinus:hover {
+    background-color: var(--dinus-dark);
+    color: var(--dinus-gold);
+}
+
+.btn-gold {
+    background-color: var(--dinus-gold);
+    color: var(--dinus-blue);
+    font-weight: bold;
+}
+
+.stepper-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border-left: 5px solid var(--dinus-gold);
+}
+
+:root {
+    --dinus-blue: #003366;    /* Warna Biru Khas */
+    --dinus-yellow: #ffcc00;  /* Warna Kuning Aksen */
+    --soft-bg: #f8f9fa;       /* Background lembut */
+}
+
+body {
+    background-color: var(--soft-bg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* --- NAVBAR STYLES --- */
+.navbar-dinus {
+    background-color: var(--dinus-blue);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* --- BUTTONS --- */
+.btn-dinus {
+    background-color: var(--dinus-blue);
+    color: white;
+    border: 1px solid var(--dinus-blue);
+    transition: all 0.3s;
+}
+
+.btn-dinus:hover {
+    background-color: #002244;
+    color: var(--dinus-yellow);
+    border-color: var(--dinus-yellow);
+}
+
+/* --- CARDS & PANELS --- */
+.card-dinus {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    background: white;
+}
+
+
+
+/* --- HOME: HERO SECTION  --- */
+.hero-section {
+    background: linear-gradient(135deg, var(--dinus-blue) 0%, #00509e 100%);
+    color: white;
+    /* Memberikan ruang napas yang luas di atas/bawah dan kiri/kanan */
+    padding: 5rem 3rem; 
+    border-radius: 1.5rem; /* Sudut lebih membulat */
+    margin-bottom: 3rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 15px 40px rgba(0, 51, 102, 0.3); /* Bayangan lebih halus */
+}
+
+/* Judul Besar */
+.hero-section h1 {
+    font-weight: 800; /* Lebih tebal */
+    margin-bottom: 1.5rem; /* Jarak antara Judul dan Paragraf */
+    line-height: 1.2; /* Jarak antar baris judul */
+    letter-spacing: -1px; /* Sedikit rapat agar elegan */
+}
+
+/* Paragraf Deskripsi */
+.hero-section p.lead {
+    font-size: 1.15rem;
+    line-height: 1.8; /* Jarak antar baris paragraf agar tidak mepet */
+    margin-bottom: 2.5rem; /* Jarak antara Paragraf dan Tombol */
+    opacity: 0.9; /* Warna sedikit diredam agar tidak menusuk mata */
+    max-width: 90%; /* Agar tulisan tidak menabrak ikon di kanan */
+}
+
+/* Pattern Background (Tetap sama) */
+.hero-pattern {
+    position: absolute;
+    right: -40px;
+    top: -30px;
+    opacity: 0.08; /* Lebih transparan agar tidak mengganggu teks */
+    font-size: 18rem;
+    color: white;
+    transform: rotate(-10deg);
+    pointer-events: none;
+}
+
+/* Tombol di dalam Hero */
+.hero-section .btn-light {
+    padding: 12px 30px; /* Tombol lebih besar */
+    font-weight: 700;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border: none;
+}
+
+
+/* --- HOME: FEATURES SECTION --- */
+.feature-icon {
+    font-size: 2.5rem;
+    color: var(--dinus-blue);
+    margin-bottom: 1rem;
+    transition: transform 0.3s;
+}
+
+.intro-text { 
+    font-size: 1.1rem; 
+    line-height: 1.7; 
+    color: #555; 
+    text-align: justify;
+}
+
+/* --- HOME: INTERACTIVE CARDS --- */
+.hover-up {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-up:hover {
+    transform: translateY(-8px); /* Efek naik ke atas */
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1) !important;
+}
+
+.hover-up:hover .feature-icon {
+    transform: scale(1.1); /* Ikon ikut membesar sedikit saat hover */
+}
+
+/* --- UTILITIES --- */
+.ls-2 {
+    letter-spacing: 2px;
+}
+
+/* Khusus Tabel Step-by-Step agar tidak terlalu rapat */
+.step-rumus {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.75rem;
+    color: #666;
+    display: block;
+    border-bottom: 1px dashed #ddd;
+    margin-bottom: 4px;
+    padding-bottom: 2px;
+}
+
+.val-num {
+    font-weight: 700;
+    color: var(--dinus-blue);
+}
